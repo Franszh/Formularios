@@ -1,0 +1,41 @@
+﻿body {
+}
+#navBar {
+    display:flex;
+    height: 40px;
+    justify-content:center;
+    align-items:center;
+
+}
+
+#HyperLink1, #HyperLink2 {
+    margin-left:20px;
+    text-decoration:none;
+    color:black;
+    background-color:#1b9c1a;
+    padding:5px;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+    #HyperLink1:hover, #HyperLink2:hover {
+        background-color: #23d122;
+    }
+#container {
+    margin: auto;
+    width:400px;
+    border: 1px double #23d122;
+}
+
+.txtBox {
+    margin: 10px 60px;
+
+}
+
+
+#footer {
+    width:auto;
+    text-align:center;
+    border: solid 1px  #000000;
+    margin:50px auto;
+    
+}
